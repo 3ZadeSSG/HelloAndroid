@@ -18,7 +18,9 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="16dp"
         android:layout_marginLeft="24dp"
-        android:text="Udacity" />
+        android:text="Udacity"
+        android:textColor="#00BCD4"
+        android:textSize="32sp" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -26,19 +28,22 @@
         android:layout_marginBottom="16dp"
         android:layout_marginLeft="24dp"
         android:text="2465 Latham St
-Mountain View, CA 94043" />
+Mountain View, CA 94043"
+        android:textSize="16sp" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="16dp"
         android:layout_marginLeft="24dp"
-        android:text="650-555-5555" />
+        android:text="650-555-5555"
+        android:textSize="16sp" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="16dp"
         android:layout_marginLeft="24dp"
-        android:text="www.udacity.com" />
+        android:text="www.udacity.com"
+        android:textSize="16sp" />
 </LinearLayout>
