@@ -3,47 +3,57 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#00ACC1"
     android:orientation="vertical"
     tools:context="com.example.android.helloandroid.MainActivity">
-
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="258dp"
-        android:layout_marginBottom="24dp"
+        android:layout_marginBottom="8dp"
         android:scaleType="centerCrop"
+        android:elevation="8dp"
         android:src="@drawable/classroom" />
 
     <TextView
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="16dp"
-        android:layout_marginLeft="24dp"
+        android:layout_margin="8dp"
+        android:layout_weight="1"
+        android:background="@drawable/mylayout"
+        android:elevation="8dp"
+        android:gravity="center"
         android:text="Udacity"
         android:textColor="#00BCD4"
         android:textSize="32sp" />
-
     <TextView
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="16dp"
-        android:layout_marginLeft="24dp"
+        android:layout_margin="8dp"
+        android:layout_weight="1"
+        android:background="@drawable/mylayout"
+        android:elevation="8dp"
+        android:gravity="center"
         android:text="2465 Latham St
 Mountain View, CA 94043"
-        android:textSize="16sp" />
-
+        android:textSize="20sp" />
     <TextView
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="16dp"
-        android:layout_marginLeft="24dp"
+        android:layout_margin="8dp"
+        android:layout_weight="1"
+        android:background="@drawable/mylayout"
+        android:elevation="8dp"
+        android:gravity="center"
         android:text="650-555-5555"
-        android:textSize="16sp" />
-
+        android:textSize="20sp" />
     <TextView
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="16dp"
-        android:layout_marginLeft="24dp"
+        android:layout_margin="8dp"
+        android:layout_weight="1"
+        android:background="@drawable/mylayout"
+        android:elevation="8dp"
+        android:gravity="center"
         android:text="www.udacity.com"
-        android:textSize="16sp" />
+        android:textSize="20sp" />
 </LinearLayout>
