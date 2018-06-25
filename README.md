@@ -1,4 +1,4 @@
-This app is part of Udacity Android Basics lesson -Building Layouts. This contains only single screen activity that shows information about Udacity.
+This app implements the basics of drawing XML layouts in android. 
 
 Properties are following:-
 1) Root Layout is LinearLayout, and the orentiation has been set to vertical.
